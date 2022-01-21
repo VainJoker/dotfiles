@@ -58,6 +58,8 @@ return require('packer').startup(function()
   use 'nvim-telescope/telescope-ui-select.nvim'
   use 'Shatur/neovim-session-manager'
   use 'goolord/alpha-nvim'
+  use 'jakewvincent/texmagic.nvim'
+  use 'lervag/vimtex'
   use 'nvim-lua/plenary.nvim'
   use 'nvim-lua/popup.nvim'
   use 'ray-x/go.nvim'

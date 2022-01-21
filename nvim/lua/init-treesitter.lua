@@ -2,7 +2,7 @@ require'nvim-treesitter.configs'.setup {
   -- 安装 language parser
   -- :TSInstallInfo 命令查看支持的语言
   --ensure_installed = {"norg", "norg_meta", "norg_table", "go", "cpp", "c", "rust"},
-  ensure_installed = {"lua","go","cpp","c","rust"},
+  ensure_installed = {"lua","go","cpp","c","rust","json","toml"},
   -- 启用代码高亮功能
   highlight = {
     enable = true,

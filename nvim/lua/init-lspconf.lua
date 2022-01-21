@@ -78,7 +78,7 @@ local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require("cmp_nvim_lsp").update_capabilities(capabilities)
 
 -- local servers = { "clangd", "pyright", "sumneko_lua","gopls" ,"html","cssls","jsonls","eslint"}
-local servers = { "clangd", "pyright", "sumneko_lua","gopls","emmet_ls","jsonls","eslint","bashls"}
+local servers = { "clangd", "pyright", "sumneko_lua","gopls","emmet_ls","jsonls","bashls","texlab","eslint","tsserver"}
 for _, lsp in ipairs(servers) do
     nvim_lsp[lsp].setup({
     on_attach = on_attach,
